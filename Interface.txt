@@ -1,0 +1,48 @@
+﻿Assignment Solutions
+
+
+1.What is an interface in Java?
+Ans : Such types of classes haven't any method body. Also, there isn't a main method called interface.In java interfaces provide us extra features and security like encapsulation and data hiding.Interface provide 100% encapsulation compared with abstract classes.
+
+
+2.Which modifiers are allowed for methods in an interface ? explain with an example.
+Ans : In interface there are two modifiers allowed i.e public and default,the abstract modifier by default added by compiler.shown below the example -
+
+
+ Interface Example
+{
+public void add(int a,int b); 
+public void soundanimal();
+}
+
+
+
+
+3.What is the use of interfaces in Java ?or  why do we use interfaces in Java?
+Ans : In java interfaces provide us some special facility and features like -
+i. An interface is used to achieve full abstraction .
+ii.In java multiple inheritance is not allowed for class level but if i use interface then we are able to extend multiple interfaces simultaneously.
+iii.Programmers use interfaces to customize features of software differently for different objects.
+
+
+
+
+4.What is the difference between abstract class and  interface ?
+Ans : There are some basic difference between this two classes i.e →
+
+
+S.N
+	abstract class
+	interface
+	1.
+	In abstract class at least one abstract method.
+	But in the interface all the methods are abstract.
+	2.
+	In abstract classes are allowed for static and non-static methods.
+	In the interface there are no static methods.
+	3.
+	This class may have a method body.
+	But interfaces have only method definition.
+	4.
+	It provides 0 (zero) to 90 % abstraction.
+	But it provides 100% abstraction and encapsulation.

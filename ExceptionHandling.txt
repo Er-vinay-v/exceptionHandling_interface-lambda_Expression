@@ -1,0 +1,59 @@
+﻿Assignment Solutions
+
+
+1.Explain different types of errors in Java ?
+ Ans: In Java there are two types of errors -
+a.compile time error : such types of errors which are caused by the programmer.This types of errors detected by the compiler . It can easily be resolved by the programmer.
+
+
+b.run time error : Such types of errors are not identified by compiler (logical ) is called  logical error or run time error . In this case this type of error is detected by Jvm and prints the error in the console
+
+
+2.What is an exception in Java ?
+Ans : An unwanted event  that disturbs the normal flow of execution of a program is called an exception . some types of exception like 
+ArithmeticException
+ArrayIndexOutOfBoundException
+FileNotFoundException etc.
+
+
+3.How can you handle exceptions in Java ? Explain with an example .
+Ans : We can handle exceptions using try and catch blocks. In the try block we need to write critical statements that throw any types of exception.And catch blocks catch the exception if any case try block throws any exception.
+Exception :- 
+class Test{
+public static void main(String[] args){
+
+
+int a=10;
+int b=0;
+try{
+int c=a/b;
+System.out.print(c);
+}catch(Exception e){
+System.out.print(e.getStackTrace());
+}
+}
+}
+
+
+4.Why do we need exception handling in Java ?
+Ans : if we do not use try and catch blocks then unwanted exceptions will occur and terminate the program execution.Exception handling makes sure the program runs smoothly without program termination.
+
+
+5.What is the difference between exceptions and errors in Java ?
+Ans : Error typically happens while an application is running For instance, Out of Memory Error occurred in case the JVM runs out of memory On the other hand, exceptions are mainly caused by the application For instance,Null Pointer Exception happens when an app tries to get through a null object.
+
+
+6.Name the different types of exception in Java 
+Ans : In Java there are two types of exception i.e -
+1. Checked Exception
+2. Unchecked Exception
+
+
+a.Checked Exception : such type of exception which is detected by the compiler during compile time is called checked exception.
+
+
+b.Unchecked Exception : such type of exception which don’t detected by the compiler .Occur during program execution.
+
+
+7.can we just use try instead of finally and catch block ? give an example .
+Ans : No, doing so will show a compilation error. Catch or finally block must always accompany try block. We can remove either finally block or catch block, but never both.

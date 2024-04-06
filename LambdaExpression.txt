@@ -1,0 +1,22 @@
+﻿Assignment Solutions
+
+
+1.What is the lambda expression ?
+Ans : Lambda expression is a new and important feature of Java which was included in Java 8. It provides a clear and concise way to represent one method interface using an expression. It is very useful in the collection library. It helps to iterate, filter and extract data from collections.
+
+
+2.Can you pass a lambda expression to a method ?When?
+Ans : Yes, you can pass a lambda expression to a method provided it is expecting a functional interface. For example, if a method is accepting a Runnable, Comparable or Comparator then you can pass a lambda expression to it because all these are functional interfaces in Java 8.
+
+
+3.What is the functional interface in Java 8?
+Ans : Such types of interface having only one abstract method is called functional interface.This features comes out in the picture in Java 8. Name of some functional interface in java like Comparable and Runnable etc. Comparable interfaces having only one method i.e compare() ,similarly Runnable interface having only one method i.e run().so this type of interface is called functional interface.
+
+
+4.Why do we use lambda expressions in Java?
+Ans : when lambda expressions do not come out in the picture or before java 8 features ,if we create a functional interface and i need to use this interface first i create a separate class or anonymous class and through this class we use this interface,this is a very complex process . This problem is solved by the lambda expression when lambda comes out in the picture.And also it is very useful in the collection library. It helps to iterate, filter and extract data from collections.
+
+
+5.Is it mandatory for a lambda expression to have parameters?
+Ans : No,it’s not mandatory for a lambda expression to have parameters i can define a expression without parameters.shown below the example -
+() → System.out.println(“Hello World !!”);
